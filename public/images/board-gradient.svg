@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="board-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="board-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="board-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="board-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="board-gradient-b" d="M14.979082,14 C14.9935702,13.9996837 15.0080208,13.9996854 15.0224251,14 L20,14 L20,4 L8,4 L8,2 L12,2 C12,1.44771525 12.4477153,1 13,1 C13.5522847,1 14,1.44771525 14,2 L21,2 C21.5522847,2 22,2.44771525 22,3 L22,15 C22,15.5522847 21.5522847,16 21,16 L16.2807764,16 L17.9701425,22.7574644 C18.1040912,23.2932593 17.7783305,23.8361938 17.2425356,23.9701425 C16.7067407,24.1040912 16.1638062,23.7783305 16.0298575,23.2425356 L14.2192236,16 L11.7807764,16 L9.9701425,23.2425356 C9.83619377,23.7783305 9.29325928,24.1040912 8.75746437,23.9701425 C8.22166947,23.8361938 7.89590877,23.2932593 8.0298575,22.7574644 L9.71922359,16 L8,16 L8,14 L10.9775731,14 C10.9919792,13.9996854 11.0064298,13.9996837 11.020918,14 L14.9790817,14 Z M7,10 C6.448,10 6,10.448 6,11 L6,22.967 C6,23.537 5.537,24 4.967,24 C4.423,24 3.972,23.578 3.936,23.035 L3.498,16.465 C3.48,16.204 3.263,16 3,16 C2.737,16 2.52,16.204 2.502,16.466 L2.064,23.036 C2.028,23.578 1.577,24 1.033,24 C0.463,24 0,23.537 0,22.967 L0,10 C0,8.895 0.895,8 2,8 L5,8 L12,8 C12.5522847,8 13,8.44771525 13,9 C13,9.55228475 12.5522847,10 12,10 L7,10 Z M3,6 C1.34314575,6 0,4.65685425 0,3 C0,1.34314575 1.34314575,0 3,0 C4.65685425,0 6,1.34314575 6,3 C6,4.65685425 4.65685425,6 3,6 Z"/>
+  </defs>
+  <g fill="none" transform="translate(4 3)">
+    <use fill="url(#board-gradient-a)" fill-rule="evenodd" xlink:href="#board-gradient-b"/>
+    <use fill="url(#board-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#board-gradient-b"/>
+    <use fill="url(#board-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#board-gradient-b"/>
+    <use fill="url(#board-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#board-gradient-b"/>
+  </g>
+</svg>

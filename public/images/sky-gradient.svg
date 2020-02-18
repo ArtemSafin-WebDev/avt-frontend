@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="sky-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="sky-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sky-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="sky-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="sky-gradient-b" d="M12.6174896,11.5 C13.0109325,10.6344254 13.546464,9.45625631 14.2240838,7.96549264 C14.7954264,6.70853883 16.2775536,6.15274117 17.5345074,6.72408381 C18.5486915,7.1850766 19.1064083,8.23900923 18.9838959,9.28918353 L21.012771,11.5716681 L26.664399,12.5136061 C27.2091693,12.6044011 27.577189,13.1196287 27.4863939,13.664399 C27.3955989,14.2091693 26.8803713,14.577189 26.335601,14.4863939 L20.335601,13.4863939 C20.110176,13.4488231 19.9044207,13.3351726 19.7525907,13.1643638 L17.9914625,11.1830946 C17.7738545,11.5259402 17.612364,11.8117857 17.5069911,12.0406312 C17.4863118,12.2977711 17.2710815,12.5 17.0086181,12.5 L2.5,12.5 C2.22385763,12.5 2,12.2761424 2,12 C2,11.7238576 2.22385763,11.5 2.5,11.5 L12.6174896,11.5 Z M18.9190049,22 L26.263932,22 L30.0527864,20.1055728 C30.5467649,19.8585836 31.1474379,20.0588079 31.3944272,20.5527864 C31.6414164,21.0467649 31.4411921,21.6474379 30.9472136,21.8944272 L26.9472136,23.8944272 C26.8083582,23.9638549 26.6552451,24 26.5,24 L17.5232269,24 C17.5077617,24.0003624 17.4922552,24.0003642 17.4767179,24 L6.5,24 C5.94771525,24 5.5,23.5522847 5.5,23 C5.5,22.4477153 5.94771525,22 6.5,22 L16.602753,22 L16.8760114,17.9242121 L10.94453,16.4984604 C10.3930956,16.4678251 9.9709044,15.9959644 10.0015396,15.44453 C10.0321749,14.8930956 10.5040356,14.4709044 11.05547,14.5015396 L20.05547,15.0015396 C20.7226633,15.0386059 21.1664893,15.7070436 20.9417419,16.3363364 L18.9190049,22 Z M21,6 C19.6192881,6 18.5,4.88071187 18.5,3.5 C18.5,2.11928813 19.6192881,1 21,1 C22.3807119,1 23.5,2.11928813 23.5,3.5 C23.5,4.88071187 22.3807119,6 21,6 Z"/>
+  </defs>
+  <g fill="none" transform="rotate(30 16.75 12.5)">
+    <use fill="url(#sky-gradient-a)" fill-rule="evenodd" xlink:href="#sky-gradient-b"/>
+    <use fill="url(#sky-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#sky-gradient-b"/>
+    <use fill="url(#sky-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#sky-gradient-b"/>
+    <use fill="url(#sky-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#sky-gradient-b"/>
+  </g>
+</svg>

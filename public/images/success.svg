@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="success-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="success-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="success-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="success-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="success-b" d="M25,50 C11.1928813,50 0,38.8071187 0,25 C0,11.1928813 11.1928813,0 25,0 C38.8071187,0 50,11.1928813 50,25 C50,38.8071187 38.8071187,50 25,50 Z M37.4141084,19.3929814 C38.1952972,18.6159096 38.1952972,17.3598755 37.4141084,16.5828038 C36.6329197,15.8057321 35.3702309,15.8057321 34.5890421,16.5828038 L20.8972605,30.2024267 L15.4109579,24.745038 C14.6297691,23.9679663 13.3670803,23.9679663 12.5858916,24.745038 C11.8047028,25.5221098 11.8047028,26.7781439 12.5858916,27.5552156 L19.4847274,34.4176931 C19.8583394,34.7913234 20.3678104,35 20.8972605,35 C21.4267107,35 21.9341837,34.7913234 22.3097937,34.4176931 L37.4141084,19.3929814 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#success-a)" xlink:href="#success-b"/>
+    <use fill="url(#success-c)" style="mix-blend-mode:lighten" xlink:href="#success-b"/>
+    <use fill="url(#success-d)" style="mix-blend-mode:lighten" xlink:href="#success-b"/>
+    <use fill="url(#success-e)" style="mix-blend-mode:lighten" xlink:href="#success-b"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  frontend:
+    image: gl.uvee.ru:4567/avt-travel/frontend:develop
+    command: npm start
+    environment:
+      NODE_ENV: testing
+      HOST: frontend
+    networks:
+      - project
+
+networks:
+  project:
+    external:
+      name: avttest

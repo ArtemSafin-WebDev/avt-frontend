@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <polygon id="tour-gradient-a" points="0 0 30 0 30 30 0 30"/>
+    <linearGradient id="tour-gradient-c" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="tour-gradient-e" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tour-gradient-f" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="tour-gradient-g" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="tour-gradient-d" d="M8,2 C8,0.895386 8.89551,0 10,0 C11.1045,0 12,0.895386 12,2 L12,8.40002 L20,14 L20,16 L12,13.4 L12,18.35 L15,20 L15,22 L10,21 L5,22 L5,20 L8,18.35 L8,13.4 L0,16 L0,14 L8,8.40002 L8,2 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(45 16.707 15.707)">
+    <mask id="tour-gradient-b" fill="#fff">
+      <use xlink:href="#tour-gradient-a"/>
+    </mask>
+    <g mask="url(#tour-gradient-b)">
+      <g fill-rule="nonzero" transform="translate(5 4)">
+        <use fill="url(#tour-gradient-c)" fill-rule="evenodd" xlink:href="#tour-gradient-d"/>
+        <use fill="url(#tour-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#tour-gradient-d"/>
+        <use fill="url(#tour-gradient-f)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#tour-gradient-d"/>
+        <use fill="url(#tour-gradient-g)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#tour-gradient-d"/>
+      </g>
+    </g>
+  </g>
+</svg>

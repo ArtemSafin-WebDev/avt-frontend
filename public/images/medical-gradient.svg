@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="medical-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="medical-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="medical-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="medical-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="medical-gradient-b" d="M17,13 L17,9 C17,8.44771525 16.5522847,8 16,8 L14,8 C13.4477153,8 13,8.44771525 13,9 L13,13 L9,13 C8.44771525,13 8,13.4477153 8,14 L8,16 C8,16.5522847 8.44771525,17 9,17 L13,17 L13,21 C13,21.5522847 13.4477153,22 14,22 L16,22 C16.5522847,22 17,21.5522847 17,21 L17,17 L21,17 C21.5522847,17 22,16.5522847 22,16 L22,14 C22,13.4477153 21.5522847,13 21,13 L17,13 Z M6,4 L24,4 C25.1045695,4 26,4.8954305 26,6 L26,24 C26,25.1045695 25.1045695,26 24,26 L6,26 C4.8954305,26 4,25.1045695 4,24 L4,6 C4,4.8954305 4.8954305,4 6,4 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#medical-gradient-a)" xlink:href="#medical-gradient-b"/>
+    <use fill="url(#medical-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#medical-gradient-b"/>
+    <use fill="url(#medical-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#medical-gradient-b"/>
+    <use fill="url(#medical-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#medical-gradient-b"/>
+  </g>
+</svg>

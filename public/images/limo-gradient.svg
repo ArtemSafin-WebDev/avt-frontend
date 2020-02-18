@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="limo-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="limo-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="limo-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="limo-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="limo-gradient-b" d="M0,10 L0,8 L16.6802949,8 C17.521214,8 18.3235275,8.35293909 18.8917573,8.97282611 L23.5,14 L27,14 C28.6568542,14 30,15.3431458 30,17 L30,18 C30,19.6568542 28.6568542,21 27,21 L25.6631844,21 C25.1014525,22.1824737 23.896198,23 22.5,23 C21.103802,23 19.8985475,22.1824737 19.3368156,21 L0,21 L0,14 L4,14 L4,10 L0,10 Z M22.5,21 C23.3284271,21 24,20.3284271 24,19.5 C24,18.6715729 23.3284271,18 22.5,18 C21.6715729,18 21,18.6715729 21,19.5 C21,20.3284271 21.6715729,21 22.5,21 Z M6,10 L6,14 L11,14 L11,10 L6,10 Z M13,10 L13,14 L21,14 L17.5857864,10.5857864 C17.2107137,10.2107137 16.7020059,10 16.1715729,10 L13,10 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#limo-gradient-a)" xlink:href="#limo-gradient-b"/>
+    <use fill="url(#limo-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#limo-gradient-b"/>
+    <use fill="url(#limo-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#limo-gradient-b"/>
+    <use fill="url(#limo-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#limo-gradient-b"/>
+  </g>
+</svg>

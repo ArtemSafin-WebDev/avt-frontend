@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="food-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="food-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="food-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="food-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="food-gradient-b" d="M16,15.0576923 L14.672,13.768 C14.239,13.273 14,12.637 14,11.98 L14,10 C14,5.28868836 16.8656666,0.899616706 17.1365151,0.495305195 C17.310078,0.198995455 17.6318001,5.55111512e-17 18,5.55111512e-17 C18.5522847,5.55111512e-17 19,0.44771525 19,1 L19,24.5 C19,25.328 18.328,26 17.5,26 C16.672,26 16,25.328 16,24.5 L16,15.0576923 Z M8.087,0.445 C8.329,1.713 9,5.362 9,7 C9,11 6,12 6,12 L6,24.5 C6,25.328 5.328,26 4.5,26 C3.672,26 3,25.328 3,24.5 L3,12 C3,12 0,11 0,7 C0,5.362 0.671,1.713 0.913,0.445 C0.963,0.186 1.189,5.55111512e-17 1.452,5.55111512e-17 C1.755,5.55111512e-17 2,0.245 2,0.548 L2,6.355 C2,6.711 2.289,7 2.645,7 C2.974,7 3.25,6.753 3.286,6.427 L3.946,0.488 C3.977,0.21 4.211,5.55111512e-17 4.491,5.55111512e-17 L4.5,5.55111512e-17 L4.509,5.55111512e-17 C4.789,5.55111512e-17 5.023,0.21 5.054,0.487 L5.714,6.426 C5.75,6.753 6.026,7 6.355,7 C6.711,7 7,6.711 7,6.355 L7,0.548 C7,0.245 7.245,5.55111512e-17 7.548,5.55111512e-17 C7.811,5.55111512e-17 8.037,0.186 8.087,0.445 Z"/>
+  </defs>
+  <g fill="none" transform="translate(5 2)">
+    <use fill="url(#food-gradient-a)" fill-rule="evenodd" xlink:href="#food-gradient-b"/>
+    <use fill="url(#food-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#food-gradient-b"/>
+    <use fill="url(#food-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#food-gradient-b"/>
+    <use fill="url(#food-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#food-gradient-b"/>
+  </g>
+</svg>

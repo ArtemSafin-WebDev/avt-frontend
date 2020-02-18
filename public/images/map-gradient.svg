@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="map-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="map-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="map-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="map-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="map-gradient-b" d="M22,15.238 L22,22.719 L16,21.219 L16,18.051 L14,15.238 L14,21.246 L9,22.675 L9,6.781 L9.011,6.778 C9.029,6.039 9.138,5.323 9.325,4.638 L8.537,4.835 C8.197,4.92 7.84,4.914 7.502,4.818 L1.339,3.056 C0.668,2.865 0,3.368 0,4.066 L0,21.245 C0,22.138 0.592,22.923 1.45,23.168 L7.644,24.938 C7.877,25.004 8.123,25.004 8.356,24.938 L14.503,23.182 C14.84,23.086 15.197,23.08 15.538,23.165 L22.696,24.955 C23.358,25.121 24,24.619 24,23.936 L24,13.643 L22,15.238 Z M7,22.674 L2,21.246 L2,5.326 L7,6.754 L7,22.674 Z M18,0 C21.866,0 25,3.134 25,7 C25,11.604 20.449,13.745 19.879,14.258 C19.296,14.782 18.815,15.834 18.621,16.499 C18.527,16.822 18.263,16.986 18,16.993 C17.738,16.986 17.473,16.822 17.379,16.499 C17.184,15.833 16.703,14.782 16.121,14.258 C15.551,13.745 11,11.604 11,7 C11,3.134 14.134,0 18,0 Z M18,9 C19.105,9 20,8.105 20,7 C20,5.895 19.105,5 18,5 C16.895,5 16,5.895 16,7 C16,8.105 16.895,9 18,9 Z"/>
+  </defs>
+  <g fill="none" transform="translate(3 2)">
+    <use fill="url(#map-gradient-a)" fill-rule="evenodd" xlink:href="#map-gradient-b"/>
+    <use fill="url(#map-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#map-gradient-b"/>
+    <use fill="url(#map-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#map-gradient-b"/>
+    <use fill="url(#map-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#map-gradient-b"/>
+  </g>
+</svg>

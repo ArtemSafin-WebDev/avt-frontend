@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="baggage-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="baggage-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="baggage-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="baggage-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="baggage-gradient-b" d="M7,5 L7,4.33333333 C7,1.93938192 8.93938192,0 11.3333333,0 L14.6666667,0 C17.0606181,0 19,1.93938192 19,4.33333333 L19,5 L24,5 C25.105,5 26,6.37692308 26,8.07692308 L26,21.9230769 C26,23.6230769 25.105,25 24,25 L2,25 C0.895,25 0,23.6230769 0,21.9230769 L0,8.07692308 C0,6.37692308 0.895,5 2,5 L7,5 Z M17,5 L17,4.33333333 C17,3.04395142 15.9560486,2 14.6666667,2 L11.3333333,2 C10.0439514,2 9,3.04395142 9,4.33333333 L9,5 L17,5 Z M14.7281993,16.4585416 L15.7542597,19.2776195 L23.2718007,16.5414584 L22.2457403,13.7223805 L14.7281993,16.4585416 Z M15,14 C16.104,14 17,13.104 17,12 C17,10.896 16.104,10 15,10 C13.896,10 13,10.896 13,12 C13,13.104 13.896,14 15,14 Z"/>
+  </defs>
+  <g fill="none" transform="translate(2 2)">
+    <use fill="url(#baggage-gradient-a)" fill-rule="evenodd" xlink:href="#baggage-gradient-b"/>
+    <use fill="url(#baggage-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#baggage-gradient-b"/>
+    <use fill="url(#baggage-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#baggage-gradient-b"/>
+    <use fill="url(#baggage-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#baggage-gradient-b"/>
+  </g>
+</svg>

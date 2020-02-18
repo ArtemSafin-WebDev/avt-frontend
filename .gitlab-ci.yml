@@ -1,0 +1,58 @@
+image: atnartur/docker:latest
+
+stages:
+  - build
+  - push
+  - deploy
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN gl.uvee.ru:4567
+  - export COMPOSE_HTTP_TIMEOUT=120
+
+docker-build:
+  stage: build
+  script:
+    - docker build --no-cache -t ${CI_REGISTRY}/${CI_PROJECT_PATH}:latest -f docker/Dockerfile .
+  only:
+    - develop
+    - master
+  tags:
+    - docker
+    - gl-uvee
+
+docker-push:
+  stage: push
+  script:
+    - docker tag ${CI_REGISTRY}/${CI_PROJECT_PATH}:latest ${CI_REGISTRY}/${CI_PROJECT_PATH}:$CI_COMMIT_REF_NAME
+    - docker push ${CI_REGISTRY}/${CI_PROJECT_PATH}:latest
+    - docker push ${CI_REGISTRY}/${CI_PROJECT_PATH}:$CI_COMMIT_REF_NAME
+  only:
+    - develop
+    - master
+  tags:
+    - docker
+    - gl-uvee
+
+trigger_deploy:
+  stage: deploy
+  script:
+    - curl -X POST -F token=$CI_TOKEN -F ref=develop https://git.stride.one/api/v4/projects/92/trigger/pipeline
+  only:
+    - develop
+  tags:
+    - docker
+    - gl-uvee
+
+
+run_prod:
+  stage: deploy
+  script:
+    - docker pull ${CI_REGISTRY}/${CI_PROJECT_PATH}:$CI_COMMIT_REF_NAME
+    - docker-compose -f docker-compose.prod.yml -p avt_prod stop
+    - docker-compose -f docker-compose.prod.yml -p avt_prod rm -f
+    - docker-compose -f docker-compose.prod.yml -p avt_prod up -d
+  only:
+    - master
+  tags:
+    - docker
+    - avt

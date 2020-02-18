@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <polygon id="plane-gradient-a" points="0 0 30 0 30 30 0 30"/>
+    <linearGradient id="plane-gradient-c" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="plane-gradient-e" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="plane-gradient-f" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="plane-gradient-g" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="plane-gradient-d" d="M12.7643836,3.70909091 C12.7643836,2.32330244 13.868437,1.2 15.230137,1.2 C16.5918493,1.2 17.6958904,2.32330244 17.6958904,3.70909091 L17.6958904,10.9854796 L24.6,18.0109091 L24.6,20.52 L17.6958904,17.2581818 L17.6958904,24.2209091 L17.6958904,24.2209091 C17.5477543,25.7659908 16.4516944,27.0547027 14.9504276,27.4489356 L9.80547945,28.8 L9.80547945,26.2909091 L12.7643836,24.2209091 L12.7643836,17.2581818 L6.6,20.52 L6.6,18.0109091 L12.7643836,10.9854796 L12.7643836,3.70909091 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="rotate(90 15 15)">
+      <mask id="plane-gradient-b" fill="#fff">
+        <use xlink:href="#plane-gradient-a"/>
+      </mask>
+    </g>
+    <g fill-rule="nonzero" transform="rotate(75 15.6 15)">
+      <use fill="url(#plane-gradient-c)" fill-rule="evenodd" xlink:href="#plane-gradient-d"/>
+      <use fill="url(#plane-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#plane-gradient-d"/>
+      <use fill="url(#plane-gradient-f)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#plane-gradient-d"/>
+      <use fill="url(#plane-gradient-g)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#plane-gradient-d"/>
+    </g>
+  </g>
+</svg>

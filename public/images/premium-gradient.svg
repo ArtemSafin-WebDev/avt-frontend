@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="premium-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="premium-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="premium-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="premium-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="premium-gradient-b" d="M14.765,1.434 L17.64,9.946 L26.623,10.05 C27.396,10.059 27.716,11.044 27.096,11.505 L19.889,16.869 L22.566,25.445 C22.796,26.183 21.959,26.791 21.328,26.344 L14,21.147 L6.671,26.343 C6.041,26.79 5.203,26.181 5.433,25.444 L8.11,16.868 L0.903,11.504 C0.283,11.043 0.603,10.058 1.376,10.049 L10.359,9.945 L13.234,1.433 C13.482,0.701 14.518,0.701 14.765,1.434 Z"/>
+  </defs>
+  <g fill="none" transform="translate(1 1)">
+    <use fill="url(#premium-gradient-a)" fill-rule="evenodd" xlink:href="#premium-gradient-b"/>
+    <use fill="url(#premium-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#premium-gradient-b"/>
+    <use fill="url(#premium-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#premium-gradient-b"/>
+    <use fill="url(#premium-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#premium-gradient-b"/>
+  </g>
+</svg>

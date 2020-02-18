@@ -1,0 +1,21 @@
+.Home {
+  text-align: left;
+}
+.elements {
+  opacity: 1;
+}
+.el-plane-1 {
+  -webkit-transform: translateX(100px) translateY(250px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-75deg) skewX(0) skewY(0);-moz-transform: translateX(100px) translateY(250px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-75deg) skewX(0) skewY(0);-ms-transform: translateX(100px) translateY(250px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-75deg) skewX(0) skewY(0);transform: translateX(100px) translateY(250px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-75deg) skewX(0) skewY(0)
+}
+.el-plane-2 {
+  -webkit-transform: translateX(390px) translateY(540px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-55deg) skewX(0) skewY(0);-moz-transform: translateX(390px) translateY(540px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-55deg) skewX(0) skewY(0);-ms-transform: translateX(390px) translateY(540px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-55deg) skewX(0) skewY(0);transform: translateX(390px) translateY(540px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-55deg) skewX(0) skewY(0)
+}
+.el-plane-3 {
+  -webkit-transform: translateX(380px) translateY(160px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-125deg) skewX(0) skewY(0);-moz-transform: translateX(380px) translateY(160px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-125deg) skewX(0) skewY(0);-ms-transform: translateX(380px) translateY(160px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-125deg) skewX(0) skewY(0);transform: translateX(380px) translateY(160px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(-125deg) skewX(0) skewY(0)
+}
+.el-plane-4 {
+  -webkit-transform: translateX(-430px) translateY(280px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(85deg) skewX(0) skewY(0);-moz-transform: translateX(-430px) translateY(280px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(85deg) skewX(0) skewY(0);-ms-transform: translateX(-430px) translateY(280px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(85deg) skewX(0) skewY(0);transform: translateX(-430px) translateY(280px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(85deg) skewX(0) skewY(0)
+}
+.el-plane-5 {
+  -webkit-transform: translateX(-290px) translateY(520px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(45deg) skewX(0) skewY(0);-moz-transform: translateX(-290px) translateY(520px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(45deg) skewX(0) skewY(0);-ms-transform: translateX(-290px) translateY(520px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(45deg) skewX(0) skewY(0);transform: translateX(-290px) translateY(520px) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(45deg) skewX(0) skewY(0)
+}

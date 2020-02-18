@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="student-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="student-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="student-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="student-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="student-gradient-b" d="M29,11.5333333 L29,24.2675644 C29.5978014,24.6133738 30,25.2597176 30,26 C30,28.1045695 28.1045695,30 28,30 C27.8954305,30 26,28.1045695 26,26 C26,25.2597176 26.4021986,24.6133738 27,24.2675644 L27,12.6 L15,19 L0,11 L15,3 L30,11 L29,11.5333333 Z M24,16.4666667 L24,21 L23.9633103,21 C23.5499413,23.80325 19.6947621,26 15,26 C10.3052379,26 6.45005874,23.80325 6.03668974,21 L6,21 L6,16.4666667 L15,21.2666667 L24,16.4666667 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#student-gradient-a)" xlink:href="#student-gradient-b"/>
+    <use fill="url(#student-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#student-gradient-b"/>
+    <use fill="url(#student-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#student-gradient-b"/>
+    <use fill="url(#student-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#student-gradient-b"/>
+  </g>
+</svg>

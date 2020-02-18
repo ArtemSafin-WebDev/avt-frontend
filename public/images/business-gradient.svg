@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="business-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="business-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="business-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="business-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="business-gradient-b" d="M10,2 C10,0.895 10.895,0 12,0 L14,0 C15.105,0 16,0.895 16,2 L24,2 C25.105,2 26,2.895 26,4 L26,13 C26,14.105 25.105,15 24,15 L2,15 C0.895,15 0,14.105 0,13 L0,4 C0,2.895 0.895,2 2,2 L10,2 Z M13,13 C13.552,13 14,12.552 14,12 C14,11.448 13.552,11 13,11 C12.448,11 12,11.448 12,12 C12,12.552 12.448,13 13,13 Z M24,17 C24.732,17 25.409,16.788 26,16.444 L26,20 C26,21.105 25.105,22 24,22 L2,22 C0.895,22 0,21.105 0,20 L0,16.444 C0.591,16.788 1.268,17 2,17 L24,17 Z"/>
+  </defs>
+  <g fill="none" transform="translate(2 4)">
+    <use fill="url(#business-gradient-a)" fill-rule="evenodd" xlink:href="#business-gradient-b"/>
+    <use fill="url(#business-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#business-gradient-b"/>
+    <use fill="url(#business-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#business-gradient-b"/>
+    <use fill="url(#business-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#business-gradient-b"/>
+  </g>
+</svg>

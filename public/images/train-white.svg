@@ -1,0 +1,19 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>train-white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7034 1225)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 7034 -1225L 7064 -1225L 7064 -1195L 7034 -1195L 7034 -1225Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="train-white" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(7039 -1222)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 5C 0 2.79089 1.75537 0.642822 3.94922 0.380615C 5.65918 0.176147 7.77783 0 10 0C 12.2222 0 14.3408 0.176147 16.0508 0.380615C 18.2446 0.642822 20 2.79089 20 5L 20 17C 20 18.9456 18.6108 20.5668 16.7705 20.9259L 18 24L 16 24L 14.7998 21L 5.2002 21L 4 24L 2 24L 3.22949 20.9259C 1.38916 20.5668 0 18.9456 0 17L 0 5ZM 2 6C 2 5.44775 2.44775 5 3 5L 9 5L 9 11L 3 11C 2.44775 11 2 10.5522 2 10L 2 6ZM 17 5L 11 5L 11 11L 17 11C 17.5522 11 18 10.5522 18 10L 18 6C 18 5.44775 17.5522 5 17 5ZM 7 16C 7 17.1046 6.10449 18 5 18C 3.89551 18 3 17.1046 3 16C 3 14.8954 3.89551 14 5 14C 6.10449 14 7 14.8954 7 16ZM 15 18C 16.1045 18 17 17.1046 17 16C 17 14.8954 16.1045 14 15 14C 13.8955 14 13 14.8954 13 16C 13 17.1046 13.8955 18 15 18Z"/>
+</defs>
+</svg>

@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  frontend:
+    image: gl.uvee.ru:4567/avt-travel/frontend:master
+    command: npm start
+    environment:
+      NODE_ENV: production
+      HOST: frontend
+    networks:
+      - project
+
+networks:
+  project:
+    external:
+      name: avtprod

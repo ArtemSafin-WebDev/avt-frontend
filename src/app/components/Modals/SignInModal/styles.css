@@ -1,0 +1,11 @@
+.disabled {
+  color: #bfbfbf !important;
+  cursor: not-allowed;
+}
+.w-input--error {
+  color: #f34457 !important;
+}
+
+.hidden {
+  display: none;
+}

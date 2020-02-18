@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="podium-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="podium-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="podium-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="podium-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="podium-gradient-b" d="M22.7419255,20 L27,20 C27.5522847,20 28,20.4477153 28,21 C28,21.5522847 27.5522847,22 27,22 L3,22 C2.44771525,22 2,21.5522847 2,21 C2,20.4477153 2.44771525,20 3,20 L7.25989843,20 C8.31698351,16.4986329 12.2719445,17.4471665 13,15.263 L13,13.579 C13,13.579 11.432,12.101 11.318,11.093 C11.318,11.093 10.5,10.788 10.5,9.515 C10.5,8.86 10.813,8.707 10.813,8.707 C10.813,8.707 10.125,7.751 10.125,6.524 C10.125,3.622 12.308,2 15,2 C16.268,2 17,3 17,3 C18.724,3 19.75,4.573 19.75,6.618 C19.75,7.638 19.187,8.707 19.187,8.707 C19.187,8.707 19.5,8.813 19.5,9.515 C19.5,10.528 18.682,11.093 18.682,11.093 C18.568,12.101 17,13.579 17,13.579 L17,15.263 C17.7284749,17.4484247 21.6875741,16.4825686 22.7419255,20 Z M4,24 L26,24 L25,28 L5,28 L4,24 Z"/>
+  </defs>
+  <g fill="none">
+    <use fill="url(#podium-gradient-a)" fill-rule="evenodd" xlink:href="#podium-gradient-b"/>
+    <use fill="url(#podium-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#podium-gradient-b"/>
+    <use fill="url(#podium-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#podium-gradient-b"/>
+    <use fill="url(#podium-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#podium-gradient-b"/>
+  </g>
+</svg>

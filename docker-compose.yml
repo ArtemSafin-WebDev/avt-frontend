@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  frontend:
+    image: gl.uvee.ru:4567/avt-travel/frontend:latest
+    command: /bin/sh -c "npm i && npm start"
+    environment:
+      NODE_ENV: development
+      HOST: frontend
+    volumes:
+      - .:/srv/www/app
+      - /srv/www/app/node_modules
+    ports:
+      - 5000:5000

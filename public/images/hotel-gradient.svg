@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <polygon id="hotel-gradient-a" points="0 0 30 0 30 30 0 30"/>
+    <linearGradient id="hotel-gradient-c" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="hotel-gradient-e" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hotel-gradient-f" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="hotel-gradient-g" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="hotel-gradient-d" d="M4.06885,0 C2.92627,0 2,0.926392 2,2.06909 L2,8 L4,8 L4,6.03455 C4,5.46313 4.46338,5 5.03467,5 L9.96533,5 C10.5366,5 11,5.46313 11,6.03455 L11,8 L13,8 L13,6.03455 C13,5.46313 13.4634,5 14.0347,5 L18.9653,5 C19.5366,5 20,5.46313 20,6.03455 L20,8 L22,8 L22,2.06909 C22,0.926392 21.0737,0 19.9312,0 L4.06885,0 Z M2,9.51721 L2,10 L22,10 L22,9.51721 C22,9.23157 22.2314,9 22.5171,9 L23.4829,9 C23.7686,9 24,9.23157 24,9.51721 L24,10 L24,19 L24,19.4828 C24,19.7684 23.7686,20 23.4829,20 L22.5171,20 C22.2314,20 22,19.7684 22,19.4828 L22,19 L2,19 L2,19.4828 C2,19.7684 1.76855,20 1.48291,20 L0.51709,20 C0.231445,20 0,19.7684 0,19.4828 L0,19 L0,10 L0,9.51721 C0,9.23157 0.231445,9 0.51709,9 L1.48291,9 C1.76855,9 2,9.23157 2,9.51721 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="hotel-gradient-b" fill="#fff">
+      <use xlink:href="#hotel-gradient-a"/>
+    </mask>
+    <g mask="url(#hotel-gradient-b)">
+      <g fill-rule="nonzero" transform="translate(3 5)">
+        <use fill="url(#hotel-gradient-c)" fill-rule="evenodd" xlink:href="#hotel-gradient-d"/>
+        <use fill="url(#hotel-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#hotel-gradient-d"/>
+        <use fill="url(#hotel-gradient-f)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#hotel-gradient-d"/>
+        <use fill="url(#hotel-gradient-g)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#hotel-gradient-d"/>
+      </g>
+    </g>
+  </g>
+</svg>

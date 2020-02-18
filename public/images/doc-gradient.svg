@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="doc-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="doc-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="doc-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="doc-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="doc-gradient-b" d="M19.707,6.793 L13.207,0.293 C13.019,0.105 12.765,0 12.5,0 L2,0 C0.895,0 0,0.895 0,2 L0,24 C0,25.105 0.895,26 2,26 L18,26 C19.105,26 20,25.105 20,24 L20,7.5 C20,7.235 19.895,6.981 19.707,6.793 Z M13,8 C12.448,8 12,7.552 12,7 L12,1.904 L18.096,8 L13,8 Z"/>
+  </defs>
+  <g fill="none" transform="translate(5 2)">
+    <use fill="url(#doc-gradient-a)" fill-rule="evenodd" xlink:href="#doc-gradient-b"/>
+    <use fill="url(#doc-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#doc-gradient-b"/>
+    <use fill="url(#doc-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#doc-gradient-b"/>
+    <use fill="url(#doc-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#doc-gradient-b"/>
+  </g>
+</svg>

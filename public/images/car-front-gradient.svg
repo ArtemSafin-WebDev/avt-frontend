@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="car-front-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="car-front-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="car-front-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="car-front-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="car-front-gradient-b" d="M24.206,8.559 L22.148,2.679 C21.587,1.077 20.069,0 18.371,0 L7.629,0 C5.931,0 4.413,1.077 3.853,2.678 L1.795,8.558 C0.696,9.281 0,10.53 0,11.904 L0,19 C0,20.105 0.895,21 2,21 C3.105,21 4,20.105 4,19 L4,17.739 C4,17.739 9.281,18 13,18 C16.719,18 22,17.739 22,17.739 L22,19 C22,20.105 22.895,21 24,21 C25.105,21 26,20.105 26,19 L26,11.904 C26,10.53 25.303,9.281 24.206,8.559 Z M4.595,6.613 L5.741,3.339 C6.022,2.537 6.779,2 7.629,2 L18.371,2 C19.221,2 19.978,2.537 20.259,3.339 L21.405,6.613 C21.585,7.128 21.156,7.647 20.617,7.56 C18.656,7.243 16.135,7 13,7 C9.865,7 7.344,7.243 5.383,7.56 C4.844,7.647 4.415,7.128 4.595,6.613 Z M4.5,14 C3.672,14 3,13.328 3,12.5 C3,11.672 3.672,11 4.5,11 C5.328,11 6,11.672 6,12.5 C6,13.328 5.328,14 4.5,14 Z M16,13 L10,13 C9.448,13 9,12.552 9,12 C9,11.448 9.448,11 10,11 L16,11 C16.552,11 17,11.448 17,12 C17,12.552 16.552,13 16,13 Z M21.5,14 C20.672,14 20,13.328 20,12.5 C20,11.672 20.672,11 21.5,11 C22.328,11 23,11.672 23,12.5 C23,13.328 22.328,14 21.5,14 Z"/>
+  </defs>
+  <g fill="none" transform="translate(2 5)">
+    <use fill="url(#car-front-gradient-a)" fill-rule="evenodd" xlink:href="#car-front-gradient-b"/>
+    <use fill="url(#car-front-gradient-c)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#car-front-gradient-b"/>
+    <use fill="url(#car-front-gradient-d)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#car-front-gradient-b"/>
+    <use fill="url(#car-front-gradient-e)" fill-rule="evenodd" style="mix-blend-mode:lighten" xlink:href="#car-front-gradient-b"/>
+  </g>
+</svg>

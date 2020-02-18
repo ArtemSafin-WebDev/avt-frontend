@@ -1,0 +1,19 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hotel-white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7069 1225)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 7069 -1225L 7099 -1225L 7099 -1195L 7069 -1195L 7069 -1225Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="hotel-white" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(7072 -1220)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 4.06885 0C 2.92627 0 2 0.926392 2 2.06909L 2 8L 4 8L 4 6.03455C 4 5.46313 4.46338 5 5.03467 5L 9.96533 5C 10.5366 5 11 5.46313 11 6.03455L 11 8L 13 8L 13 6.03455C 13 5.46313 13.4634 5 14.0347 5L 18.9653 5C 19.5366 5 20 5.46313 20 6.03455L 20 8L 22 8L 22 2.06909C 22 0.926392 21.0737 0 19.9312 0L 4.06885 0ZM 2 9.51721L 2 10L 22 10L 22 9.51721C 22 9.23157 22.2314 9 22.5171 9L 23.4829 9C 23.7686 9 24 9.23157 24 9.51721L 24 10L 24 19L 24 19.4828C 24 19.7684 23.7686 20 23.4829 20L 22.5171 20C 22.2314 20 22 19.7684 22 19.4828L 22 19L 2 19L 2 19.4828C 2 19.7684 1.76855 20 1.48291 20L 0.51709 20C 0.231445 20 0 19.7684 0 19.4828L 0 19L 0 10L 0 9.51721C 0 9.23157 0.231445 9 0.51709 9L 1.48291 9C 1.76855 9 2 9.23157 2 9.51721Z"/>
+</defs>
+</svg>

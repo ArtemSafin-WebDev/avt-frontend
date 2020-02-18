@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="helicopter-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="helicopter-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="helicopter-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="helicopter-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="helicopter-gradient-b" d="M17,7 L7,7 C6.44771525,7 6,6.55228475 6,6 C6,5.44771525 6.44771525,5 7,5 L17,5 L17,4 C17,3.44771525 17.4477153,3 18,3 C18.5522847,3 19,3.44771525 19,4 L19,5 L29,5 C29.5522847,5 30,5.44771525 30,6 C30,6.55228475 29.5522847,7 29,7 L19,7 L19,10.000001 L21.0931888,10.0000011 C23.3757157,10.0000012 25.3883783,11.2819775 26.400874,13.2 L22.4985711,13.2 C22.1395527,13.2 21.7872842,13.2975727 21.4794285,13.4822862 C20.5413335,14.0451431 20.237143,15.2619051 20.8,16.2 L21.9008739,18.0347898 C22.3346097,18.7576828 23.1158261,19.2 23.9588569,19.2 L27.269027,19.2 C26.8544952,21.1471871 25.2461879,22.7072135 23.1593573,22.9640542 C22.9648263,22.9879965 22.7690113,23.0000013 22.5730124,23.0000013 L17.243819,23.0000013 C14.5876256,23.0000013 12.1021527,21.6906407 10.6,19.5000013 L9.16843868,17.4123078 C8.53545102,16.4892007 7.65687299,15.7615553 6.63200594,15.3116137 L1.43522385,13.0300996 C0.563163505,12.6472439 -3.27453719e-16,11.784955 -4.4408921e-16,10.8325539 L0,10 L17,10.0000009 L17,7 Z M1,6 C1.55228475,6 2,6.44771525 2,7 L2,10 L0,10 L0,7 C-6.76353751e-17,6.44771525 0.44771525,6 1,6 Z M10,27 C9.44771525,27 9,26.5522847 9,26 C9,25.4477153 9.44771525,25 10,25 L25.3431458,25 C26.1387952,25 26.901857,24.6839295 27.4644661,24.1213203 L28.2928932,23.2928932 C28.6834175,22.9023689 29.3165825,22.9023689 29.7071068,23.2928932 C30.0976311,23.6834175 30.0976311,24.3165825 29.7071068,24.7071068 L28.8786797,25.5355339 C27.9409978,26.4732158 26.6692282,27 25.3431458,27 L10,27 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#helicopter-gradient-a)" xlink:href="#helicopter-gradient-b"/>
+    <use fill="url(#helicopter-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#helicopter-gradient-b"/>
+    <use fill="url(#helicopter-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#helicopter-gradient-b"/>
+    <use fill="url(#helicopter-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#helicopter-gradient-b"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="bus-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="bus-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bus-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="bus-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="bus-gradient-b" d="M8,3 L22,3 C24.209139,3 26,4.790861 26,7 L26,26 C26,27.1045695 25.1045695,28 24,28 C22.8954305,28 22,27.1045695 22,26 L8,26 C8,27.1045695 7.1045695,28 6,28 C4.8954305,28 4,27.1045695 4,26 L4,7 C4,4.790861 5.790861,3 8,3 Z M6,9 L6,13.4989522 C6,14.4470237 6.66564603,15.264828 7.59397645,15.4572915 L7.59397316,15.4573074 C9.33905869,15.8191025 11.8077343,16 15,16 C18.192259,16 20.6609309,15.8191032 22.4060158,15.4573097 C23.3343607,15.2648439 24.0000181,14.4470282 24.0000202,13.498942 L24.0000132,9 L6,9 Z M11,5 C10.4477153,5 10,5.44771525 10,6 C10,6.55228475 10.4477153,7 11,7 L19,7 C19.5522847,7 20,6.55228475 20,6 C20,5.44771525 19.5522847,5 19,5 L11,5 Z M8,23 C9.1045695,23 10,22.1045695 10,21 C10,19.8954305 9.1045695,19 8,19 C6.8954305,19 6,19.8954305 6,21 C6,22.1045695 6.8954305,23 8,23 Z M22,23 C23.1045695,23 24,22.1045695 24,21 C24,19.8954305 23.1045695,19 22,19 C20.8954305,19 20,19.8954305 20,21 C20,22.1045695 20.8954305,23 22,23 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#bus-gradient-a)" xlink:href="#bus-gradient-b"/>
+    <use fill="url(#bus-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#bus-gradient-b"/>
+    <use fill="url(#bus-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#bus-gradient-b"/>
+    <use fill="url(#bus-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#bus-gradient-b"/>
+  </g>
+</svg>

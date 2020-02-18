@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g fill="none" fill-rule="evenodd" transform="translate(6 6)">
+    <polygon fill="#F24458" fill-rule="nonzero" points="11 9 7 9 2 1 16 1"/>
+    <polygon fill="#F24458" fill-rule="nonzero" points="11 17 7 19 7 11 11 11"/>
+    <path stroke="#F24458" stroke-linecap="round" stroke-width="2" d="M0,1 L18,1"/>
+  </g>
+</svg>

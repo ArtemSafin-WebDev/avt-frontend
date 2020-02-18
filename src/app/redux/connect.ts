@@ -1,0 +1,27 @@
+import * as React from 'react';
+import { IStore } from './IStore';
+
+/* tslint:disable */
+
+import {
+  connect as originalConnect, MapDispatchToPropsParam, MapStateToPropsParam, MergeProps, Options
+} from "react-redux";
+
+export type InferableComponentEnhancerWithProps<TInjectedProps, TNeedsProps> = <TComponent extends React.ComponentType<TInjectedProps & TNeedsProps>>(component: TComponent) => TComponent;
+
+interface MyConnect {
+  <TStateProps = {}, TDispatchProps = {}, TOwnProps = {}>(
+    mapStateToProps?: MapStateToPropsParam<TStateProps, TOwnProps, IStore>,
+    mapDispatchToProps?: MapDispatchToPropsParam<TDispatchProps, TOwnProps>
+  ): InferableComponentEnhancerWithProps<TStateProps & TDispatchProps, TOwnProps>;
+
+  <TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, TMergedProps = {}>(
+    mapStateToProps?: MapStateToPropsParam<TStateProps, TOwnProps, IStore>,
+    mapDispatchToProps?: MapDispatchToPropsParam<TDispatchProps, TOwnProps>,
+    mergeProps?: MergeProps<TStateProps, TDispatchProps, TOwnProps, TMergedProps>,
+    options?: Options<TStateProps, TOwnProps, TMergedProps>
+  ): InferableComponentEnhancerWithProps<TMergedProps, TOwnProps>;
+
+}
+
+export const connect = originalConnect as MyConnect;

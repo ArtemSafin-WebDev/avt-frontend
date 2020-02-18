@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="microphone-gradient-a" x1="30.157%" x2="69.254%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F24458"/>
+      <stop offset="100%" stop-color="#FD9953"/>
+    </linearGradient>
+    <linearGradient id="microphone-gradient-c" x1="100%" x2="65.214%" y1="0%" y2="80.43%">
+      <stop offset="0%" stop-color="#9248AE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#BB6BD9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="microphone-gradient-d" x1="21.144%" x2="0%" y1="38.675%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#F2944C" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="microphone-gradient-e" x1="80.784%" y1="43.044%" y2="100%">
+      <stop offset="0%" stop-color="#E6FF00" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E6FF00" stop-opacity=".3"/>
+    </linearGradient>
+    <path id="microphone-gradient-b" d="M23.9322568,4.5180432 L25.7071068,6.29289322 C25.8946432,6.4804296 26,6.73478351 26,7 L26,9 L24,9 L24,7.41421356 L22.5180432,5.93225676 C22.3528166,5.97644275 22.1791593,6 22,6 C20.8954305,6 20,5.1045695 20,4 C20,2.8954305 20.8954305,2 22,2 C23.1045695,2 24,2.8954305 24,4 C24,4.17915933 23.9764427,4.35281657 23.9322568,4.5180432 Z M19,25 L19,28 L11,28 L11,25 L7.63960781,25 C6.68624577,25 5.86541613,24.3270807 5.67844645,23.3922323 L4,15 L26,15 L24.3215535,23.3922323 C24.1345839,24.3270807 23.3137542,25 22.3603922,25 L19,25 Z M3,11 L27,11 C27.5522847,11 28,11.4477153 28,12 C28,12.5522847 27.5522847,13 27,13 L3,13 C2.44771525,13 2,12.5522847 2,12 C2,11.4477153 2.44771525,11 3,11 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#microphone-gradient-a)" xlink:href="#microphone-gradient-b"/>
+    <use fill="url(#microphone-gradient-c)" style="mix-blend-mode:lighten" xlink:href="#microphone-gradient-b"/>
+    <use fill="url(#microphone-gradient-d)" style="mix-blend-mode:lighten" xlink:href="#microphone-gradient-b"/>
+    <use fill="url(#microphone-gradient-e)" style="mix-blend-mode:lighten" xlink:href="#microphone-gradient-b"/>
+  </g>
+</svg>
