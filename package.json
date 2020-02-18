@@ -139,7 +139,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
-    "serialize-javascript": "1.4.0",
+    "serialize-javascript": "2.1.1",
     "serve-favicon": "^2.5.0",
     "typesafe-actions": "^1.1.2"
   }
